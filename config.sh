@@ -5,7 +5,7 @@ sync_flags=""
 
 repo_sync() {
 	rm -rf .repo/manifest* &&
-	$REPO init -u $GITREPO -b $BRANCH -m $1.xml $REPO_INIT_FLAGS &&
+	$REPO init -u $GITREPO -b $BRANCH -m $1.xml --no-repo-verify $REPO_INIT_FLAGS &&
 	$REPO sync $sync_flags $REPO_SYNC_FLAGS
 	ret=$?
 	if [ "$GITREPO" = "$GIT_TEMP_REPO" ]; then
