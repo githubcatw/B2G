@@ -3,7 +3,7 @@
 ## repo default configuration
 ##
 REPO_URL = 'https://gerrit.googlesource.com/git-repo'
-REPO_REV = '745b4ad660f8050045b521c4e15b7d3ac0b3d70e'
+REPO_REV = 'v1.12.37'
 
 # Copyright (C) 2008 Google Inc.
 #
