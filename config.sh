@@ -13,7 +13,7 @@ repo_sync() {
 	fi
 	if [ $ret -ne 0 ]; then
 		echo Repo sync failed
-  		echo (you might need to downgrade repo)
+  		echo \(you might need to downgrade repo\)
 		exit -1
 	fi
 }
