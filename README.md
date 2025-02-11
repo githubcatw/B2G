@@ -1,5 +1,7 @@
 this is a (hopefully successful) attempt to build mozilla's latest version of B2G in 2025. do note that you still need time-appropriate software to build it.
 
+right now, support for building the emulator-x86-kk target on ubuntu 16.04 is being worked on. other OSes and targets may not work correctly.
+
 # Boot to Gecko (B2G)
 
 Boot to Gecko aims to create a complete, standalone operating system for the open web.
